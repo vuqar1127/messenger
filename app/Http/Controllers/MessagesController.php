@@ -64,6 +64,16 @@ class MessagesController extends Controller
     public function send(Request $request){
 
         if($request->ajax()){
+            // $validator = Validator::make($request->all(), [
+            //     'message' => 'alpha_dash'
+            // ]);
+
+            // if ($validator->fails()) {
+            //     return redirect('/messages')
+            //                 ->withErrors($validator)
+            //                 ->withInput();
+            // }
+            
             $message = $request->message;
             $id = $request->id;
 
