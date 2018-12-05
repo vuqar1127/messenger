@@ -34,9 +34,9 @@ Route::get('/NewMessage', 'MessagesController@newMessage');
 //
 
 
-Route::get('/test', 'Test@index');
+//Route::get('/test', 'Test@index');
 
-Route::get('/getUser', 'Test@show');
+//Route::get('/getUser', 'Test@show');
 
 // Route::get('/getRequest', function(){
 // 	if(Request::ajax()){
